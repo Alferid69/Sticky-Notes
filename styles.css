@@ -80,3 +80,15 @@ i{
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .note-creater{
+    left: 25%;
+  }
+}
+
+@media (max-width: 375px) {
+  .note-creater{
+    left: 20%;
+  }
+}
