@@ -30,7 +30,7 @@ body {
 
 .note-creater{
   display: none;
-  position: relative;
+  position: absolute;
   left: 40%;
   z-index: 2;
 }
@@ -87,8 +87,8 @@ i{
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 446px) {
   .note-creater{
-    left: 20%;
+    left: 10%;
   }
 }
